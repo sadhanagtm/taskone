@@ -16,8 +16,6 @@ nav{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* position: fixed; */
-    /* top: opx; */
 }
 .upperleft{
     display: flex;
@@ -80,13 +78,15 @@ a{
     height: 30px;
     width: 30px;
     border-radius: 30px;
-    background-color: red;
+background-size: cover;
+background-image:url(../pics/search.jpg);
 }
 .image4{
     height: 30px;
     width: 30px;
     border-radius: 30px;
-    background-color: red;
+background-image: url(../pics/dustbin.jpg);
+background-size: cover;
 }
 .center{
     height:700px;
@@ -141,7 +141,6 @@ padding: 20px;
     padding: 20px;
     gap: 50px;
     height: 400px;
-    /* background-color: white; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -150,26 +149,30 @@ padding: 20px;
 .pic1{
     height: 100px;
     width: 100px;
-    border-radius: 100px;
-    background-color: gray;
+    background-image: url(../pics/setting);
+    background-size: cover;
 }
 .pic2{
     height: 100px;
     width: 100px;
     border-radius: 100px;
-    background-color: gray;
+    background-image: url(../pics/book.jpg);
+    background-size: cover;
 }
 .pic3{
     height: 100px;
     width: 100px;
     border-radius: 100px;
-    background-color: grey;
+    background-image: url(../pics/cources);
+    background-size: cover;
 }
 .pic4{
+    margin-left: 15px;
     height: 100px;
     width: 100px;
-    border-radius: 100px;
-    background-color: gray;
+    background-image: url(../pics/award.jpg);
+    background-size: cover;
+  
 }
 .one{
     width: 200px;
@@ -546,6 +549,26 @@ margin-top: 30px;
     width:100%;
 
 }
+#doctorone{
+    background-image: url(../pics/doc1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#doctortwo{
+    background-image: url(../pics/doc2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#doctorthree{
+    background-image: url(../pics/doc3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#doctorfour{
+    background-image: url(../pics/doc4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .db{
     font-size: 20px;
     font-weight: 400;
@@ -591,4 +614,90 @@ background-repeat: no-repeat;
     background-image: url(../pics/twitter2.jpg);
 background-size: contain;
 background-repeat: no-repeat;
+}
+.forgotten{
+    height: 800px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+.forgotone{
+    margin: 10px;
+    gap: 20px;
+    height: 200px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forgottwo{
+    font-size: 40px;
+    font-weight: 400;
+}
+.forgotthree{
+    width: 600px;
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+}
+.sadhana{
+    height: 500px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+}
+.sadone{
+    width: 350px;
+    gap:10px ;
+}
+.phuto{
+    height: 50%;
+}
+#preone{
+    background-image: url(../pics/girl1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#oneone{
+    background-image: url(../pics/girl2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#twotwo{
+    background-image: url(../pics/img6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sadtwo{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.sadthree{
+    color: rgb(20,189,238);
+    width: 20%;
+    height:100px ;
+    font-size: 30px;
+    font-weight: 600;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+.sadfour{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.sadfive{
+    font-size: 25px;
+    font-weight: 500;
 }
