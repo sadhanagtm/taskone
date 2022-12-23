@@ -701,3 +701,96 @@ align-items: center;
     font-size: 25px;
     font-weight: 500;
 }
+.secondlast{
+    height: 1000px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+.secondlastone{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    width: 700px;
+    padding: 10px;
+}
+.underone{
+    font-size: 50px;
+    font-weight: 600;
+}
+.undertwo{
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 300;
+}
+.secondlasttwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 800px;
+    width: 95%;
+    gap: 15px;
+}
+.partone{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 30px;
+    width:60%;
+    height: fit-content;
+}
+.partoneupper{
+    height: 400px;
+    background-image: url(../pics/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    justify-content: flex-end;
+}
+.partonelower{
+height: 40%;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.preetyone{
+    font-size: 30px;
+    font-weight: 600;
+}
+.preetytwo{
+    gap: 10px;
+    color: gray;
+}
+.preetythree{
+    font-size: 20px;
+    color: gray;
+}
+.preetyfour a{
+    color: black;
+    text-decoration: underline;
+}
+.parttwo{
+    width: 40%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.smartest{
+    padding: 5px;
+    gap: 20px;
+}
+.smart{
+    font-size: 35px;
+}
+.smarter{
+    font-size: 15px;
+padding: 20px;
+color: gray;
+}
