@@ -308,6 +308,7 @@ align-items: center;
     width: 30px;
     border-radius: 30px;
     background-color: blue;
+    /* background-image: url(../pics/search.); */
 
   }
 .ab{
@@ -793,4 +794,214 @@ gap: 30px;
     font-size: 15px;
 padding: 20px;
 color: gray;
+}
+.final{
+    background-color:rgb(75,80,93);
+    height:400px;
+    width:1500px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+.finalone{
+height: 100px;
+width: 1500px;
+background-color: rgb(44,194,234);
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.rose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: green; */
+    width: fit-content;
+
+}
+.roseone{
+    font-size: 20px;
+color: white;
+/* width: ; */
+}
+.rosetwo{
+    color: white;
+
+}
+.lilly{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+margin-left: 250px;
+}
+input{
+    border: 0px ;
+    color: white;
+    width: 250px;
+    height: 30px;
+    background-color:RGB(124 214 238);
+}
+.finaltwo{
+    height: 500px;
+    width: 1400px;
+    background-color:rgb(75,80,93);
+    display: flex;
+    flex-direction: column;
+    /* background-color:rgb(37,43,58) */
+}
+.sunflower{
+    height:260px;
+    /* background-color:yellow; */
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+    gap: 20px;
+    /* margin-bottom: 50px; */
+}
+.sunflowerone{
+    height: 250px;
+    width: 250px;
+    /* background-color: skyblue; */
+    display: flex;
+    flex-direction: column;
+}
+#red{
+    display: flex;
+ justify-content: center;
+ /* align-items: center; */
+ gap: 20px;   
+}
+.redmain{
+display: flex;
+flex-direction: row;
+}
+.redone{
+    font-size: 40px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.redoone{
+    font-size:40px;
+    font-weight: 600;
+    color:rgb(44,194,234) ;
+}
+.redtwo{
+    font-weight: 300;
+    color: white;
+}
+.redthree{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 40px;
+    gap: 10px;
+}
+.redimg{
+    border: 1px solid black;
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+}
+#imgone{
+    background-image: url(../pics/facb.jpg);
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+#imgtwo{
+    background-image: url(../pics/goo.jpg);
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+#imgthree{
+    background-image: url(../pics/);
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+#imgfour{
+    background-image: url(../pics/);
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+#green{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+#greencontact{
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+}
+.greenone{
+    color: whitesmoke;
+}
+#orange{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.orangeone{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.orangetwo{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* color: whitesmoke; */
+}
+.orangethree{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 10px;
+}
+.orangefour{
+    color:whitesmoke;
+}
+#yellow{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+.yellowone{
+    font-size: 30px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.yellowtwo{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 140px;
+   
+}
+#lol{
+    background-image: url(../pics/hiii.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#lolo{
+    background-image: url(../pics/hello.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.belowsunflower{
+height: 50px;
+color: whitesmoke;
+background-color: rgb(75,80,93);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.rightside{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 150px;
 }
