@@ -307,21 +307,29 @@ align-items: center;
     height:30px ;
     width: 30px;
     border-radius: 30px;
-    background-color: blue;
-    /* background-image: url(../pics/search.); */
+    /* background-color: blue; */
+    /* border: 1px solid black; */
+    background-image: url(../pics/hat.png);
+    background-size: contain;
+    /* background-position: top; */
+    background-repeat: no-repeat;
 
   }
 .ab{
     height:30px ;
     width: 30px;
     border-radius: 30px;
-    background-color: blue;
+    /* background-color: blue; */
+    background-image: url(../pics/star\ \(2\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .ac{
     margin-left: 30px;
     font-size: 25px;
     font-weight:700 ;
-    color: aqua;
+    color:  rgb(20,189,238);
 }
 .dma{
     font-size: 20px;
@@ -347,7 +355,7 @@ align-items: center;
     margin-left: 30px;
     font-size: 25px;
     font-weight:700 ;
-    color: aqua;
+    color:  rgb(20,189,238);
 }
 .lowtexttwo{
     display: flex;
@@ -484,7 +492,7 @@ justify-content: center;
 .form input{
     height: 35px;
     border: 1px solid lightgray;
-
+width: 350px;
 }
 .form select{
     height: 35px;
@@ -904,23 +912,29 @@ flex-direction: row;
     width: 40px;
 }
 #imgone{
+    /* width: 40px;
+    height: 40px; */
     background-image: url(../pics/facb.jpg);
-    background-position: contain;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 #imgtwo{
     background-image: url(../pics/goo.jpg);
-    background-position: contain;
+    background-size: cover;
+    background-position:center ;
     background-repeat: no-repeat;
 }
 #imgthree{
-    background-image: url(../pics/);
-    background-position: contain;
+    background-color: lightgray;
+    background-image: url(../pics/pnginsta);
+    background-size: cover;
     background-repeat: no-repeat;
 }
 #imgfour{
-    background-image: url(../pics/);
-    background-position: contain;
+    background-image: url(../pics/pngtwitter.png);
+    background-color: white;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 #green{
